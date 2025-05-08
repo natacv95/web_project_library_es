@@ -118,16 +118,16 @@
   line-height: 30px;
   font-weight: 400;
   color: #ffffff;
-  margin: 0 0 68px 0;
+  margin: 0;
 }
 
 .staff__cards {
   max-width: 760px;
-  margin: auto;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 40px;
+  justify-content: center;
+  gap: 40px 40px;
   list-style-type: none;
   padding-left: 0;
 }
@@ -163,9 +163,9 @@
 }
 
 .card__footer {
-  margin-top: auto;
+  margin: 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  text-align: left;
+  margin-top: auto;
 }
